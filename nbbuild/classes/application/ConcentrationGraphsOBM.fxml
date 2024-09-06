@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConcentrationGraphsOBMController">
+   <children>
+      <LineChart fx:id="graphicChart" layoutX="40.0" prefHeight="408.0" prefWidth="600.0" title="Concentrations" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="10.0">
+        <xAxis>
+          <CategoryAxis label="Date" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Concentration kg/m3" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <CheckBox fx:id="caCO3" layoutX="600.0" layoutY="135.0" mnemonicParsing="false" text="CaCO3" AnchorPane.rightAnchor="52.0" />
+      <CheckBox fx:id="baseOil" layoutX="600.0" layoutY="155.0" mnemonicParsing="false" text="BaseOil" AnchorPane.rightAnchor="49.0" />
+      <CheckBox fx:id="caCL2" layoutX="600.0" layoutY="175.0" mnemonicParsing="false" text="CaCL2" AnchorPane.rightAnchor="55.0" />
+      <CheckBox fx:id="emulsifier" layoutX="600.0" layoutY="195.0" mnemonicParsing="false" text="Emulsifier" AnchorPane.rightAnchor="37.0" />
+      <CheckBox fx:id="versaTrol" layoutX="600.0" layoutY="215.0" mnemonicParsing="false" text="VersaTrol" AnchorPane.rightAnchor="39.0" />
+      <CheckBox fx:id="barite" layoutX="600.0" layoutY="235.0" mnemonicParsing="false" text="Barite" AnchorPane.rightAnchor="58.0" />
+      <CheckBox fx:id="wettingAgent" layoutX="600.0" layoutY="255.0" mnemonicParsing="false" text="Wetting Agent" AnchorPane.rightAnchor="11.0" />
+      <CheckBox fx:id="clay" layoutX="600.0" layoutY="275.0" mnemonicParsing="false" text="Clay" AnchorPane.rightAnchor="66.0" />
+      <Button fx:id="plot" layoutX="615.0" layoutY="41.0" mnemonicParsing="false" onAction="#plotData" text="Plot" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="60.0" />
+      <DatePicker fx:id="dateFrom" layoutX="573.0" layoutY="41.0" prefWidth="120.0" AnchorPane.rightAnchor="17.0" />
+      <DatePicker fx:id="dateTo" layoutX="573.0" layoutY="85.0" prefWidth="120.0" AnchorPane.rightAnchor="17.0" />
+      <Label layoutX="601.0" layoutY="23.0" text="Date From:" AnchorPane.rightAnchor="50.0" />
+      <Label layoutX="610.0" layoutY="67.0" text="Date To:" AnchorPane.rightAnchor="55.0" />
+      <TextField fx:id="referenceLine" layoutX="650.0" layoutY="337.0" maxWidth="50.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" promptText="0" AnchorPane.rightAnchor="10.0" />
+      <CheckBox fx:id="reference" layoutX="572.0" layoutY="341.0" mnemonicParsing="false" text="Reference" AnchorPane.rightAnchor="64.0" />
+      <CheckBox fx:id="lime" layoutX="600.0" layoutY="295.0" mnemonicParsing="false" text="Lime" AnchorPane.rightAnchor="63.0" />
+   </children>
+</AnchorPane>

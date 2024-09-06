@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main_controller">
+   <children>
+      <Label alignment="CENTER" layoutX="158.0" layoutY="92.0" text="Created by AZa." AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="360.0" layoutY="169.0" text="2017" />
+      <Label alignment="CENTER" layoutX="168.0" layoutY="102.0" prefWidth="360.0" text="First choose file with translitiration &quot;rules&quot;. In this file most &quot;complex&quot; replacement's should be in first rows." wrapText="true" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="40.0" />
+   </children>
+</AnchorPane>

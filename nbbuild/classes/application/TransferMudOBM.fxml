@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxWidth="400.0" minWidth="400.0" prefHeight="60.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TransferMudControllerOBM">
+   <children>
+      <ComboBox fx:id="chooseWell" layoutX="14.0" layoutY="25.0" maxHeight="25.0" maxWidth="160.0" minHeight="25.0" minWidth="160.0" prefHeight="25.0" prefWidth="160.0" promptText="Choose Well" AnchorPane.leftAnchor="7.5" />
+      <TextArea fx:id="amountMud" layoutX="183.0" layoutY="25.0" maxHeight="25.0" maxWidth="160.0" minHeight="25.0" minWidth="160.0" prefHeight="25.0" prefWidth="160.0" promptText="Enter amount of mud " AnchorPane.leftAnchor="175.0" />
+      <Label layoutX="66.0" layoutY="6.0" text="To Well" AnchorPane.leftAnchor="66.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="6.0" text="Amount of mud, m" AnchorPane.leftAnchor="201.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="moveMud" layoutX="352.0" layoutY="25.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" mnemonicParsing="false" onAction="#moveMud" prefHeight="25.0" prefWidth="50.0" text="Move" AnchorPane.leftAnchor="342.5" />
+      <Label layoutX="309.0" layoutY="4.0" text="3">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

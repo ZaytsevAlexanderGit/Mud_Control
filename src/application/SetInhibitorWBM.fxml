@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="90.0" maxWidth="380.0" minHeight="90.0" minWidth="380.0" prefHeight="90.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SetInhibitorController">
+   <children>
+      <TextField fx:id="Location" editable="false" layoutX="20.0" layoutY="18.0" prefWidth="150.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <TextField fx:id="Well" editable="false" layoutX="187.0" layoutY="18.0" prefWidth="150.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="10.0" />
+      <TextArea fx:id="firstInhib" layoutX="10.0" layoutY="40.0" maxHeight="25.0" minHeight="25.0" prefHeight="25.0" prefWidth="150.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" />
+      <TextArea fx:id="secondInhib" layoutX="20.0" layoutY="50.0" maxHeight="25.0" minHeight="25.0" prefHeight="25.0" prefWidth="150.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="170.0" />
+      <Button fx:id="set" layoutX="336.0" layoutY="35.0" mnemonicParsing="false" onAction="#setInhibWBM" prefHeight="25.0" prefWidth="40.0" text="Set" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="32.5" />
+      <Label layoutX="50.0" layoutY="37.0" text="First Inhibitor" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="37.0" />
+      <Label layoutX="201.0" layoutY="37.0" text="Second Inhibitor" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="91.0" AnchorPane.topAnchor="37.0" />
+   </children>
+</AnchorPane>
