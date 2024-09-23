@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OilBaseMudController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OilBaseMudController">
    <children>
       <MenuBar layoutX="25.0" layoutY="14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
@@ -62,17 +62,50 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TextArea fx:id="mudLost" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" />
-            <TextArea fx:id="mudMade" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1" />
-            <TextArea fx:id="caCO3" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2" />
-            <TextArea fx:id="baseOil" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3" />
-            <TextArea fx:id="caCl2" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4" />
-            <TextArea fx:id="emulsifier" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5" />
-            <TextArea fx:id="versaTrol" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6" />
-            <TextArea fx:id="barite" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7" />
-            <TextArea fx:id="weightAgent" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8" />
-            <TextArea fx:id="clay" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="9" />
-            <TextArea fx:id="lime" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="10" />
+            <TextArea fx:id="mudLost" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="mudMade" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="caCO3" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="baseOil" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="caCl2" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="emulsifier" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="versaTrol" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="barite" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="weightAgent" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="clay" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="9">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="lime" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="10">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
          </children>
       </GridPane>
       <Button fx:id="addToDB" layoutX="1198.0" layoutY="84.0" mnemonicParsing="false" onAction="#addToDB" text="Add" AnchorPane.bottomAnchor="591.0" />
@@ -156,7 +189,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <GridPane alignment="CENTER" hgap="10.0" layoutX="365.0" layoutY="591.0" prefHeight="25.0" prefWidth="690.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="366.0">
+      <GridPane alignment="CENTER" hgap="10.0" layoutX="297.0" layoutY="587.0" prefHeight="25.0" prefWidth="690.0" AnchorPane.bottomAnchor="87.39999999999998" AnchorPane.leftAnchor="297.0">
          <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
@@ -172,19 +205,46 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <TextArea fx:id="caCO3Calc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" />
-            <TextArea fx:id="baseOilCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1" />
-            <TextArea fx:id="caCl2Calc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2" />
-            <TextArea fx:id="emulsifierCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3" />
-            <TextArea fx:id="versaTrolCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4" />
-            <TextArea fx:id="bariteCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5" />
-            <TextArea fx:id="weightAgentCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6" />
-            <TextArea fx:id="clayCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7" />
-            <TextArea fx:id="limeCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8" />
+            <TextArea fx:id="caCO3Calc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="baseOilCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="caCl2Calc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="emulsifierCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="versaTrolCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="bariteCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="weightAgentCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="clayCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="limeCalc" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
          </children>
       </GridPane>
-      <Button fx:id="showAllCalc" layoutX="1174.0" layoutY="590.0" mnemonicParsing="false" onAction="#showAllCalc" text="Concentration's" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="1174.0" />
-      <GridPane alignment="CENTER" hgap="10.0" layoutX="197.0" layoutY="495.0" prefHeight="25.0" prefWidth="690.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="366.0">
+      <Button fx:id="showAllCalc" layoutX="1105.0" layoutY="587.0" mnemonicParsing="false" onAction="#showAllCalc" text="Concentration's" AnchorPane.bottomAnchor="87.39999999999998" AnchorPane.leftAnchor="1105.0" />
+      <GridPane alignment="CENTER" hgap="10.0" layoutX="297.0" layoutY="617.0" prefHeight="25.0" prefWidth="690.0" AnchorPane.bottomAnchor="57.39999999999998" AnchorPane.leftAnchor="297.0">
          <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
@@ -201,19 +261,46 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <TextArea fx:id="caCO3Report" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.rowIndex="1" />
-            <TextArea fx:id="baseOilReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextArea fx:id="caCl2Report" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <TextArea fx:id="emulsifierReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <TextArea fx:id="versaTrolReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <TextArea fx:id="bariteReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <TextArea fx:id="weightAgentReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <TextArea fx:id="clayReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <TextArea fx:id="limeReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <TextArea fx:id="caCO3Report" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="baseOilReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="caCl2Report" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="emulsifierReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="versaTrolReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="bariteReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="weightAgentReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="clayReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="limeReport" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
          </children>
       </GridPane>
-      <Button fx:id="addReportButt" layoutX="1176.0" layoutY="621.0" mnemonicParsing="false" onAction="#addReportData" text="Update Report" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="1176.0" />
-      <GridPane alignment="CENTER" hgap="10.0" layoutX="197.0" layoutY="541.0" prefHeight="25.0" prefWidth="690.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="366.0">
+      <Button fx:id="addReportButt" layoutX="1107.0" layoutY="618.0" mnemonicParsing="false" onAction="#addReportData" text="Update Report" AnchorPane.bottomAnchor="56.39999999999998" AnchorPane.leftAnchor="1107.0" />
+      <GridPane alignment="CENTER" hgap="10.0" layoutX="297.0" layoutY="647.0" prefHeight="25.0" prefWidth="690.0" AnchorPane.bottomAnchor="27.399999999999977" AnchorPane.leftAnchor="297.0">
          <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
@@ -229,73 +316,100 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <TextArea fx:id="caCO3Diff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" />
-            <TextArea fx:id="baseOilDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1" />
-            <TextArea fx:id="caCl2lDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2" />
-            <TextArea fx:id="emulsifierDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3" />
-            <TextArea fx:id="versaTrolDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4" />
-            <TextArea fx:id="bariteDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5" />
-            <TextArea fx:id="weightAgentDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6" />
-            <TextArea fx:id="clayDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7" />
-            <TextArea fx:id="limeDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8" />
+            <TextArea fx:id="caCO3Diff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="baseOilDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="caCl2lDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="2">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="emulsifierDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="3">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="versaTrolDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="4">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="bariteDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="5">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="weightAgentDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="6">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="clayDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="7">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <TextArea fx:id="limeDiff" editable="false" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="8">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
          </children>
       </GridPane>
-      <Label layoutX="388.0" layoutY="570.0" text="CaCO3" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="388.0">
+      <Label layoutX="319.0" layoutY="567.0" text="CaCO3" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="319.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="475.0" layoutY="570.0" text="BaseOil" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="475.0">
+      <Label layoutX="406.0" layoutY="567.0" text="BaseOil" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="406.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="569.0" layoutY="570.0" text="CaCL2" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="569.0">
+      <Label layoutX="499.0" layoutY="567.0" text="CaCL2" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="499.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="648.0" layoutY="570.0" text="Emulsifier" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="648.0">
+      <Label layoutX="579.0" layoutY="567.0" text="Emulsifier" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="579.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="740.0" layoutY="570.0" text="VersaTrol" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="740.0">
+      <Label layoutX="671.0" layoutY="567.0" text="VersaTrol" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="671.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="839.0" layoutY="570.0" text="Barite" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="840.0">
+      <Label layoutX="771.0" layoutY="567.0" text="Barite" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="771.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="905.0" layoutY="570.0" text="Wetting agent" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="905.0">
+      <Label layoutX="835.0" layoutY="567.0" text="Wetting agent" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="835.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="1024.0" layoutY="570.0" text="Clay" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="1024.0">
+      <Label layoutX="955.0" layoutY="567.0" text="Clay" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="955.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="166.0" layoutY="595.0" text="Calculated Concentration, kg/m" AnchorPane.bottomAnchor="90.0">
+      <Label layoutX="97.0" layoutY="590.0" text="Calculated Concentration, kg/m" AnchorPane.bottomAnchor="92.39999999999998">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="167.0" layoutY="625.0" text="Reported Concentration , kg/m" AnchorPane.bottomAnchor="58.0">
+      <Label layoutX="98.0" layoutY="622.0" text="Reported Concentration , kg/m" AnchorPane.bottomAnchor="60.39999999999998">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="175.0" layoutY="654.0" text="Concentration Difference, %" AnchorPane.bottomAnchor="30.0">
+      <Label layoutX="106.0" layoutY="650.0" text="Concentration Difference, %" AnchorPane.bottomAnchor="32.39999999999998">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="345.0" layoutY="592.0" text="3" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="345.0">
+      <Label layoutX="275.0" layoutY="589.0" text="3" AnchorPane.bottomAnchor="97.39999999999998" AnchorPane.leftAnchor="275.0">
          <font>
             <Font name="System Bold" size="9.0" />
          </font>
@@ -315,7 +429,7 @@
             <Font name="System Bold" size="9.0" />
          </font>
       </Label>
-      <Label layoutX="1115.0" layoutY="570.0" text="Lime" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="1115.0">
+      <Label layoutX="1046.0" layoutY="567.0" text="Lime" AnchorPane.bottomAnchor="115.39999999999998" AnchorPane.leftAnchor="1046.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>

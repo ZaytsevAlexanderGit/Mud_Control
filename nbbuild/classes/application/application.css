@@ -1,3 +1,7 @@
 .chart-symbol{ 
     -fx-shape: "M0,4";
 }
+
+#chooseBoxLocat, #chooseBoxWell, #evaluateWellWBM, #evaluateWellOBM, #showAllCalc, #addReportButt, #addToDB {
+  -fx-font-size: 12;
+}
