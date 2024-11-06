@@ -414,11 +414,6 @@
             <Font name="System Bold" size="9.0" />
          </font>
       </Label>
-      <Label layoutX="343.0" layoutY="623.0" text="3" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="343.0">
-         <font>
-            <Font name="System Bold" size="9.0" />
-         </font>
-      </Label>
       <Label layoutX="270.0" layoutY="64.0" text="3" AnchorPane.bottomAnchor="623.0" AnchorPane.leftAnchor="270.0" AnchorPane.topAnchor="64.0">
          <font>
             <Font name="System Bold" size="9.0" />

@@ -10,8 +10,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConcentrationGraphsWBMController">
+<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConcentrationGraphsWBMController">
    <children>
       <LineChart fx:id="graphicChart" layoutX="40.0" prefHeight="408.0" prefWidth="600.0" title="Concentrations" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="10.0">
         <xAxis>
@@ -21,16 +22,40 @@
           <NumberAxis label="Concentration kg/m3" side="LEFT" />
         </yAxis>
       </LineChart>
-      <CheckBox fx:id="caCO3" layoutX="600.0" layoutY="155.0" mnemonicParsing="false" text="CaCO3" AnchorPane.rightAnchor="52.0" />
-      <CheckBox fx:id="lubricant" layoutX="600.0" layoutY="175.0" mnemonicParsing="false" text="Lubricant" AnchorPane.rightAnchor="39.0" />
-      <CheckBox fx:id="kCl" layoutX="600.0" layoutY="195.0" mnemonicParsing="false" text="KCL" AnchorPane.rightAnchor="68.0" />
-      <CheckBox fx:id="starch" layoutX="600.0" layoutY="215.0" mnemonicParsing="false" text="Starch" AnchorPane.rightAnchor="55.0" />
-      <CheckBox fx:id="barite" layoutX="600.0" layoutY="235.0" mnemonicParsing="false" text="Barite" AnchorPane.rightAnchor="58.0" />
-      <CheckBox fx:id="naCl" layoutX="600.0" layoutY="255.0" mnemonicParsing="false" text="NaCL" AnchorPane.rightAnchor="60.0" />
+      <CheckBox fx:id="caCO3" layoutX="599.4" layoutY="155.0" mnemonicParsing="false" text="CaCO3" AnchorPane.rightAnchor="57.0">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="lubricant" layoutX="600.6" layoutY="175.0" mnemonicParsing="false" text="Lubricant" AnchorPane.rightAnchor="43.799999999999955">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kCl" layoutX="601.4" layoutY="195.0" mnemonicParsing="false" text="KCL" AnchorPane.rightAnchor="70.20000000000005">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="starch" layoutX="601.0" layoutY="215.0" mnemonicParsing="false" text="Starch" AnchorPane.rightAnchor="58.60000000000002">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="barite" layoutX="600.2" layoutY="235.0" mnemonicParsing="false" text="Barite" AnchorPane.rightAnchor="61.799999999999955">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="naCl" layoutX="599.4" layoutY="255.0" mnemonicParsing="false" text="NaCL" AnchorPane.rightAnchor="64.20000000000005">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
       <VBox layoutX="600.0" layoutY="276.0" prefHeight="42.0" prefWidth="100.0" spacing="3.0" AnchorPane.rightAnchor="10.0">
          <children>
-            <CheckBox fx:id="ingibitor1" mnemonicParsing="false" text="Ingibitor 1" />
-            <CheckBox fx:id="ingibitor2" mnemonicParsing="false" text="Ingibitor 2" />
+            <CheckBox fx:id="ingibitor1" mnemonicParsing="false" text="Ingibitor 1">
+               <font>
+                  <Font size="11.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="ingibitor2" mnemonicParsing="false" text="Ingibitor 2">
+               <font>
+                  <Font size="11.0" />
+               </font></CheckBox>
          </children>
       </VBox>
       <Button fx:id="plot" layoutX="615.0" layoutY="41.0" mnemonicParsing="false" onAction="#plotData" text="Plot" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="60.0" />
@@ -39,6 +64,9 @@
       <Label layoutX="601.0" layoutY="23.0" text="Date From:" AnchorPane.rightAnchor="50.0" />
       <Label layoutX="610.0" layoutY="67.0" text="Date To:" AnchorPane.rightAnchor="55.0" />
       <TextField fx:id="referenceLine" layoutX="650.0" layoutY="337.0" maxWidth="50.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" promptText="0" AnchorPane.rightAnchor="10.0" />
-      <CheckBox fx:id="reference" layoutX="572.0" layoutY="341.0" mnemonicParsing="false" text="Reference" AnchorPane.rightAnchor="64.0" />
+      <CheckBox fx:id="reference" layoutX="572.0" layoutY="341.0" mnemonicParsing="false" text="Reference" AnchorPane.rightAnchor="64.0">
+         <font>
+            <Font size="11.0" />
+         </font></CheckBox>
    </children>
 </AnchorPane>
