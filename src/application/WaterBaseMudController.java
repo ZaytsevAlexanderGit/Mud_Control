@@ -1792,6 +1792,15 @@ public class WaterBaseMudController implements Initializable {
         pstmt.executeUpdate();
         pstmt.close();
     }
+    
+    public void clearAllDb(String locat) throws SQLException {
+        String sql = "DELETE FROM MudControlProperties WHERE FieldLocation = ?";
+        Connection conn = loginModal.connectWBM();
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1, locat);
+        pstmt.executeUpdate();
+        pstmt.close();
+    }
 
     public ResultSet chooseWellsFromDb(String locat, String well) throws SQLException {
         ArrayList<String> fields = new ArrayList<String>();
